@@ -1,8 +1,8 @@
 {
-  "name": "slackin",
-  "version": "0.13.1",
+  "name": "slackin-set",
+  "version": "0.13.2",
   "description": "Public Slack organizations made easy",
-  "repository": "rauchg/slackin",
+  "repository": "sanderpick/slackin",
   "main": "dist/index",
   "files": [
     "dist",
@@ -57,7 +57,6 @@
   },
   "scripts": {
     "test": "mocha && eslint lib/**",
-    "postinstall": "gulp",
     "build": "gulp",
     "start": "chmod +x bin/slackin && ./bin/slackin"
   },
